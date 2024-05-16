@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 17px;
+  }
+  
+  #gf {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+  header{
+    position: absolute;
+    background: rgb(54, 53, 52);
+    color: rgb(236, 234, 231);
+    width: 100%;
+  }
+  header{
+    height: 10vh;
+  }
+  header h2{
+    position: absolute;
+    margin-top: 15px;
+    left: 3%;
+  }
+  
+  .nav{
+    position: absolute;
+    width: 100%;
+  }
+  .nav a{
+    position: relative;
+    left: 75%;
+    top: 15px;
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  .caption {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  }
+  .content {
+    position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  }
+  #myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #222121;
+  color: #fff;
+  cursor: pointer;
+  }
+  
+  #myBtn:hover {
+  background: #ddd;
+  color: black;
+  }
